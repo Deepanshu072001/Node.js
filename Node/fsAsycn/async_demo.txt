@@ -1,0 +1,5 @@
+Hello World is the async file content! 
+ Welcome to the Node.js world This is the async appended data. 
+=> Hello World is the file content!!!!! appended data. Welcome to the Node.js code 
+ This is the async appended data. 
+=> Hello World is the file content!!!!! appended data. Welcome to the Node.js code
