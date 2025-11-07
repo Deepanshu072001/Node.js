@@ -1,0 +1,16 @@
+{
+  "name": "01-express",
+  "version": "1.0.0",
+  "description": "Express Basics",
+  "license": "ISC",
+  "author": "Deepanshu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "dependencies": {
+    "@types/node": "^24.10.0",
+    "express": "^5.1.0"
+  }
+}
