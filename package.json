@@ -1,5 +1,25 @@
 {
+  "name": "practise-node-js",
+  "version": "1.0.0",
+  "description": "Learning of Node.js  and practise code file.",
+  "homepage": "https://github.com/Deepanshu072001/Node.js#readme",
+  "bugs": {
+    "url": "https://github.com/Deepanshu072001/Node.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepanshu072001/Node.js.git"
+  },
+  "license": "ISC",
+  "author": "self",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node"
+  },
   "dependencies": {
+    "express": "^5.1.0",
     "node": "^22.19.0"
   }
 }
