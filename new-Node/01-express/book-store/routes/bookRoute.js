@@ -1,59 +1,17 @@
 const express = require('express');
-const {BOOKS} = require('../db/book');
+const controller = require('../controllers/book.controller');
 const fs = require('fs');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.setHeader('x-custom', 'custom header'); // --> to create a custom header
-    res.json(BOOKS);
-});
+router.get('/',controller.getAllBooks);
+    //res.setHeader('x-custom', 'custom header'); // --> to create a custom header
 
-router.get('/:id', (req, res) => {
-const id = req.params.id;
+router.get('/:id', controller.getBookById);
 
-const book = BOOKS.find((e) => e.id == id);
+router.post('/', controller.createBook);
 
-if(!book ) return res
-    .status(404)
-    .json({error: `Book with id ${id} does not exists`});
-    return res.json(book);
-});
-
-router.post('/', (req, res) => {
-    const {title, author} = req.body;
-
-    if(!title || title === '')
-        return res.status(400).json({ error: 'title is required'});
-
-    if(!author || author === '')
-        return res.status(400).json({ error: 'author is required'});
-
-    const id = BOOKS.length + 1;
-
-    const book = { id, title, author };
-    BOOKS.push(book);
-
-    return res.status(201).json({message : "Book created successfully:", id});
-});
-
-router.delete('/:id', (req, res) => {
-    const id = parseInt(req.params.id);
-
-    if(isNaN (id))
-        return res.status(400).json({error: 'id must be of number type'});
-
-    const indexToDelete = BOOKS.findIndex(e => e.id === id)
-
-    if (indexToDelete < 0)
-        return res
-         .status(404)
-         .json({ error: `Book with id ${id} doesn't exists!! `});
-
-    BOOKS.splice(indexToDelete, 1);
-
-    return res.status(200).json({ message: ' book deleted '});
-});
+router.delete('/:id', controller.deleteBookById);
 
 // Catch invalid routes (404)
 router.use((req, res) => {

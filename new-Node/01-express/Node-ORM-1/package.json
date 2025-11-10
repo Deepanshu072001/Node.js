@@ -1,0 +1,18 @@
+{
+  "name": "node-orm-1",
+  "version": "1.0.0",
+  "description": "Building Full stack application with Relational Databases, ORM's and API",
+  "license": "ISC",
+  "author": "Deepanshu",
+  "type": "commonjs",
+  "main": "drizzel.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "drizzle-kit": "^0.31.6",
+    "drizzle-orm": "^0.44.7",
+    "pg": "^8.16.3"
+  }
+}
