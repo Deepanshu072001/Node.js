@@ -1,3 +1,3 @@
 # Node.js
-Learning of Node.js  and practise code file.
+Node js Express + Rest api projects. 
 Mini Projects on Rest API using Node.js + Express 
