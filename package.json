@@ -1,7 +1,7 @@
 {
   "name": "practise-node-js",
   "version": "1.0.0",
-  "description": "Learning of Node.js  and practise code file.",
+  "description": "Node js mini rest api projects using node.js and express.",
   "homepage": "https://github.com/Deepanshu072001/Node.js#readme",
   "bugs": {
     "url": "https://github.com/Deepanshu072001/Node.js/issues"
