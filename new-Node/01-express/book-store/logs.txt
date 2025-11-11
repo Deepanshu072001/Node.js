@@ -22,3 +22,96 @@
 [1762747318081] DELETE /books/
 [1762747318083] ERROR: Cannot DELETE /
 [1762747351329] GET /books/
+[1762839559500] GET /api/contacts/
+[1762839583847] GET /books/
+[1762839583939] SERVER ERROR: Failed query: select "id", "title", "description", "authorId" from "books"
+params: 
+[1762839610442] GET /books/
+[1762839610450] SERVER ERROR: Failed query: select "id", "title", "description", "authorId" from "books"
+params: 
+[1762839647664] GET /books/
+[1762839647669] SERVER ERROR: Failed query: select "id", "title", "description", "authorId" from "books"
+params: 
+[1762839763510] GET /books/
+[1762839763665] SERVER ERROR: Failed query: select "id", "title", "description", "authorId" from "books"
+params: 
+[1762839803357] GET /books
+[1762839803399] SERVER ERROR: Failed query: select "id", "title", "description", "authorId" from "books"
+params: 
+[1762840322530] GET /
+[1762840328204] GET /book
+[1762840333344] GET /books
+[1762840333457] SERVER ERROR: Failed query: select "id", "title", "description", "authorId" from "books"
+params: 
+[1762840736184] GET /books
+[1762840736483] SERVER ERROR: Failed query: select "id", "title", "description", "authorId" from "books"
+params: 
+[1762843619220] GET /books
+[1762844000701] GET /books
+[1762844024947] GET /books/
+[1762845005949] GET /books/
+[1762845518022] GET /books/
+[1762845531587] DELETE /books/
+[1762845541783] GET /books/
+[1762845558863] DELETE /books/113ecb34-2aa2-44b6-a063-4f8ffd09663a
+[1762845575424] GET /books/
+[1762845649398] GET /books/
+[1762846821305] GET /books/
+[1762846830332] GET /books/
+[1762846844144] GET /books/
+[1762848609557] GET /books/
+[1762848626474] GET /books/
+[1762848635662] GET /books/
+[1762848644484] GET /books/
+[1762848781772] GET /books/
+[1762848804389] GET /books/
+[1762848816593] GET /books/
+[1762848826637] GET /books/
+[1762849796883] GET /books
+[1762849877164] GET /books/%0A
+[1762849990933] GET /books
+[1762850031324] GET /books/
+[1762850224180] GET /books/
+[1762850247517] GET /books/
+[1762850311185] GET /books/
+[1762850441817] GET /books/
+[1762850554513] GET /books/
+[1762850587161] GET /books/
+[1762850607288] GET /books/
+[1762850788203] GET /books
+[1762851045627] GET /books
+[1762851059935] GET /books
+[1762851699855] GET /books
+[1762851754354] GET /books
+[1762851920246] GET /books
+[1762861203472] GET /books
+[1762861229850] GET /books
+[1762861246000] GET /books
+[1762861253754] GET /books
+[1762861274065] GET /books
+[1762861285172] GET /books
+[1762864380909] GET /authors
+[1762864485656] GET /authors/49612bdc-f874-48ce-99b0-30a29a4b1c11
+[1762864506284] GET /authors/
+[1762864536232] GET /authors/
+[1762864565097] GET /authors/49612bdc-f874-48ce-99b0-30a29a4b1c12
+[1762864577761] GET /authors/49612bdc-f874-48ce-99b0-30a29a4b1c11
+[1762864770823] POST /authors/
+[1762864830487] POST /authors/
+[1762865132513] GET /authors/
+[1762874897766] GET /authors/
+[1762874918701] GET /authors/
+[1762874962093] GET /authors/
+[1762875060823] GET /author/
+[1762875088333] GET /author/
+[1762875676250] GET /author/
+[1762875692179] GET /author/
+[1762875893713] GET /authors/49612bdc-f874-48ce-99b0-30a29a4b1c11
+[1762875902524] GET /authors/49612bdc-f874-48ce-99b0-30a29a4b1c12
+[1762875910559] GET /authors/
+[1762875917178] GET /authors
+[1762876296321] GET /authors
+[1762876317163] GET /authors/12997f40-c9c5-4a98-a84a-9f9c81c2f7f0/books
+[1762876457710] GET /authors/
+[1762877057099] GET /books
+[1762877094507] GET /books/baa1afb2-946e-44e4-bd4d-ccc6f61dbe9d

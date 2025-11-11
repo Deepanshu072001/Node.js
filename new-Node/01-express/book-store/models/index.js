@@ -4,4 +4,4 @@ const authorTable = require('./author.model');
 module.exports = {
     booksTable,
     authorTable
-} ;
+};
